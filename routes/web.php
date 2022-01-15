@@ -17,6 +17,15 @@ use Illuminate\Support\Facades\Route;
 Route::get('/', function () {
     return view('client.home');
 });
+Route::get('/about', function () {
+    return view('client.about');
+});
+Route::get('/contact', function () {
+    return view('client.contact');
+});
+Route::get('/shop', function () {
+    return view('client.shop');
+});
 
 //Routing Admin 
 Route::prefix('admin')->group(function () {

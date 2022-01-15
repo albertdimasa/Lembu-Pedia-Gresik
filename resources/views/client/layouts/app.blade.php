@@ -62,10 +62,10 @@
                         <!-- menu start -->
                         <nav class="main-menu">
                             <ul>
-                                <li><a href="#">Home</a></li>
-                                <li><a href="about.html">About</a></li>
-                                <li><a href="contact.html">Contact</a></li>
-                                <li><a href="shop.html">Shop</a></li>
+                                <li><a href="{{ url('/') }}">Home</a></li>
+                                <li><a href="{{ url('/about') }}">About</a></li>
+                                <li><a href="{{ url('/contact') }}">Contact</a></li>
+                                <li><a href="{{ url('/shop') }}">Shop</a></li>
                                 <li>
                                     <div class="header-icons">
                                         <a class="shopping-cart" href="#"><i class="fas fa-shopping-cart"></i></a>
@@ -131,10 +131,10 @@
                     <div class="footer-box pages">
                         <h2 class="widget-title">Pages</h2>
                         <ul>
-                            <li><a href="index.html">Home</a></li>
-                            <li><a href="about.html">About</a></li>
-                            <li><a href="contact.html">Contact</a></li>
-                            <li><a href="services.html">Shop</a></li>
+                            <li><a href="{{ url('/') }}">Home</a></li>
+                            <li><a href="{{ url('/about') }}">About</a></li>
+                            <li><a href="{{ url('/contact') }}">Contact</a></li>
+                            <li><a href="{{ url('/shop') }}">Shop</a></li>
                         </ul>
                     </div>
                 </div>
@@ -158,9 +158,9 @@
         <div class="container">
             <div class="row">
                 <div class="col-lg-6 col-md-12">
-                    <p>Copyrights &copy; 2019 - <a href="https://imransdesign.com/">Imran Hossain</a>, All Rights
+                    <p>Copyrights &copy; 2019 - <a href="{{ url('/') }}">Sapi Gresik</a>, All Rights
                         Reserved.<br>
-                        Distributed By - <a href="https://themewagon.com/">Themewagon</a>
+                        {{-- Distributed By - <a href="https://themewagon.com/">Themewagon</a> --}}
                     </p>
                 </div>
                 <div class="col-lg-6 text-right col-md-12">
