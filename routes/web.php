@@ -13,6 +13,13 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
+//Auth
+Route::get('/admin', function () {
+    return view('admin.index');
+});
+Route::post('/admin-login', 'App\Http\Controllers\AuthController@login');
+Route::get('/logout', 'App\Http\Controllers\AuthController@logout');
+
 //Routing Client
 Route::get('/', function () {
     return view('client.home');
@@ -27,21 +34,18 @@ Route::get('/shop', function () {
     return view('client.shop');
 });
 
-//Routing Admin 
-Route::prefix('admin')->group(function () {
-    Route::get('/', function () {
-        return view('admin.index');
-    });
-    Route::get('/dashboard', function () {
+//Routing Admin
+Route::group(['middleware' => ['cek-login:0']], function () {
+    Route::get('admin/dashboard', function () {
         return view('admin.dashboard');
     });
-    Route::get('/produk', function () {
+    Route::get('admin/produk', function () {
         return view('admin.produk');
     });
-    Route::get('/kategori', function () {
+    Route::get('admin/kategori', function () {
         return view('admin.kategori');
     });
-    Route::get('/promosi', function () {
+    Route::get('admin/promosi', function () {
         return view('admin.promosi');
     });
 });
