@@ -8,10 +8,10 @@
                     <div class="hero-text">
                         <div class="hero-text-tablecell">
                             <p class="subtitle">Sehat & Halal</p>
-                            <h1>Jual Beli Sapi Kurban</h1>
+                            <h1>Lembu Pedia Gresik</h1>
                             <div class="hero-btns">
-                                <a href="shop.html" class="boxed-btn">Lihat Sapi</a>
-                                <a href="contact.html" class="bordered-btn">Hubungi Kami</a>
+                                <a href="{{ url('/shop') }}" class="boxed-btn">Lihat Sapi</a>
+                                <a href="{{ url('/contact') }}" class="bordered-btn">Hubungi Kami</a>
                             </div>
                         </div>
                     </div>
@@ -32,8 +32,8 @@
                             <i class="fas fa-shipping-fast"></i>
                         </div>
                         <div class="content">
-                            <h3>Pengiriman Cepat</h3>
-                            <p>Area Gresik Surabaya Lamongan</p>
+                            <h3>Pengiriman Darat</h3>
+                            <p>Siap Mengirim Ke Seluruh Jawa</p>
                         </div>
                     </div>
                 </div>
@@ -44,7 +44,7 @@
                         </div>
                         <div class="content">
                             <h3>Dukungan Penuh</h3>
-                            <p>Dapat Dihubungi Kapanpun</p>
+                            <p>Dapat Dihubungi Saat Jam Kerja</p>
                         </div>
                     </div>
                 </div>
@@ -54,8 +54,8 @@
                             <i class="fas fa-sync"></i>
                         </div>
                         <div class="content">
-                            <h3>Pengembalian</h3>
-                            <p>Bila Ditemukan Sapi Kurang Baik</p>
+                            <h3>Garansi Kesehatan</h3>
+                            <p>Penjaminan Mutu Kesehatan Sapi</p>
                         </div>
                     </div>
                 </div>
@@ -73,8 +73,9 @@
                 <div class="col-lg-8 offset-lg-2 text-center">
                     <div class="section-title">
                         <h3><span class="orange-text">Produk</span> Kami</h3>
-                        <p>Produk kami dijamin halal dan sehat karena dirawat sepenuh hati serta telah berpengalaman sejak
-                            tahun 2010.</p>
+                        <p>Produk kami dijamin sehat dan sesuai syariat Islam karena dirawat sepenuh hati serta telah
+                            berpengalaman sejak
+                            tahun 1998.</p>
                     </div>
                 </div>
             </div>
@@ -89,8 +90,7 @@
                         </div>
                         <h3>Strawberry</h3>
                         <p class="product-price"><span>Per Kg</span> 85$ </p>
-                        <a href="cart.html" class="cart-btn"><i class="fas fa-shopping-cart"></i> Masukkan
-                            Keranjang</a>
+                        <a href="#" class="cart-btn"><i class="fas fa-shopping-cart"></i>Pesan Sekarang</a>
                     </div>
                 </div>
                 <div class="col-lg-4 col-md-6 text-center">
@@ -101,8 +101,7 @@
                         </div>
                         <h3>Berry</h3>
                         <p class="product-price"><span>Per Kg</span> 70$ </p>
-                        <a href="cart.html" class="cart-btn"><i class="fas fa-shopping-cart"></i> Masukkan
-                            Keranjang</a>
+                        <a href="#" class="cart-btn"><i class="fas fa-shopping-cart"></i>Pesan Sekarang</a>
                     </div>
                 </div>
                 <div class="col-lg-4 col-md-6 offset-md-3 offset-lg-0 text-center">
@@ -113,8 +112,7 @@
                         </div>
                         <h3>Lemon</h3>
                         <p class="product-price"><span>Per Kg</span> 35$ </p>
-                        <a href="cart.html" class="cart-btn"><i class="fas fa-shopping-cart"></i> Masukkan
-                            Keranjang</a>
+                        <a href="#" class="cart-btn"><i class="fas fa-shopping-cart"></i>Pesan Sekarang</a>
                     </div>
                 </div>
             </div>
@@ -122,7 +120,7 @@
     </div>
     <!-- end product section -->
 
-    <!-- cart banner section -->
+    {{-- <!-- cart banner section -->
     <section class="cart-banner pt-100 pb-100">
         <div class="container">
             <div class="row clearfix">
@@ -141,7 +139,7 @@
                 </div>
                 <!--Content Column-->
                 <div class="content-column col-lg-6">
-                    <h3><span class="orange-text">Deal</span> of the month</h3>
+                    <h3><span class="orange-text">Diskon</span> Idul Adha</h3>
                     <h4>Hikan Strwaberry</h4>
                     <div class="text">Quisquam minus maiores repudiandae nobis, minima saepe id, fugit ullam
                         similique! Beatae, minima quisquam molestias facere ea. Perspiciatis unde omnis iste natus error sit
@@ -168,7 +166,33 @@
             </div>
         </div>
     </section>
-    <!-- end cart banner section -->
+    <!-- end cart banner section --> --}}
+
+    <!-- advertisement section -->
+    <div class="abt-section mb-100 mt-5">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-6 col-md-12">
+                    <div class="abt-bg">
+                        <a href="https://www.youtube.com/watch?v=DBLlFWYcIGQ" class="video-play-btn popup-youtube"><i
+                                class="fas fa-play"></i></a>
+                    </div>
+                </div>
+                <div class="col-lg-6 col-md-12">
+                    <div class="abt-text">
+                        <p class="top-sub">Sejak Tahun 1998</p>
+                        <h3>Lembu Pedia <span class="orange-text">Gresik</span></h3>
+                        <p class="text-justify">Kami telah berpengalaman sejak tahun 1998. Memiliki peternakan sendiri
+                            yang berada di daerah Gresik. Tiap tahunnya mengeluarkan kurang lebih 200 ekor.</p>
+                        {{-- <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sapiente facilis illo repellat
+                            veritatis minus, et labore minima mollitia qui ducimus.</p> --}}
+                        <a href="{{ url('/about') }}" class="boxed-btn mt-4">Lihat Selengkapnya</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- end advertisement section -->
 
     {{-- <!-- testimonail-section -->
     <div class="testimonail-section mt-150 mb-150">
@@ -231,32 +255,7 @@
     </div>
     <!-- end testimonail-section --> --}}
 
-    <!-- advertisement section -->
-    <div class="abt-section mb-100 mt-5">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-6 col-md-12">
-                    <div class="abt-bg">
-                        <a href="https://www.youtube.com/watch?v=DBLlFWYcIGQ" class="video-play-btn popup-youtube"><i
-                                class="fas fa-play"></i></a>
-                    </div>
-                </div>
-                <div class="col-lg-6 col-md-12">
-                    <div class="abt-text">
-                        <p class="top-sub">Since Year 1999</p>
-                        <h2>We are <span class="orange-text">Fruitkha</span></h2>
-                        <p>Etiam vulputate ut augue vel sodales. In sollicitudin neque et massa porttitor vestibulum ac vel
-                            nisi. Vestibulum placerat eget dolor sit amet posuere. In ut dolor aliquet, aliquet sapien sed,
-                            interdum velit. Nam eu molestie lorem.</p>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sapiente facilis illo repellat
-                            veritatis minus, et labore minima mollitia qui ducimus.</p>
-                        <a href="about.html" class="boxed-btn mt-4">Lihat Selengkapnya</a>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-    <!-- end advertisement section -->
+
 
     {{-- <!-- shop banner -->
     <section class="shop-banner">

@@ -6,7 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="description"
-        content="Responsive Bootstrap4 Shop Template, Created by Imran Hossain from https://imransdesign.com/">
+        content="Lembu Pedia Gresik - Halo teman-teman semuanya apa kabar? semoga dalam keadaan sehat selalu. Sedang cari Jual Sapi Qurban Gresik ? selamat anda di website yang tepat.">
 
     <!-- title -->
     <title>Fruitkha</title>
@@ -110,24 +110,26 @@
     <div class="footer-area">
         <div class="container">
             <div class="row">
-                <div class="col-lg-3 col-md-6">
+                <div class="col-lg-4 col-md-6">
                     <div class="footer-box about-widget">
-                        <h2 class="widget-title">About us</h2>
-                        <p>Ut enim ad minim veniam perspiciatis unde omnis iste natus error sit voluptatem accusantium
-                            doloremque laudantium, totam rem aperiam, eaque ipsa quae.</p>
+                        <h2 class="widget-title">Tentang Kami</h2>
+                        <p class="text-justify">Kami telah berpengalaman sejak tahun 1998. Memiliki peternakan sendiri
+                            yang berada di daerah
+                            Gresik. Tiap tahunnya mengeluarkan kurang lebih 200 ekor.</p>
                     </div>
                 </div>
-                <div class="col-lg-3 col-md-6">
+                <div class="col-lg-4 col-md-6">
                     <div class="footer-box get-in-touch">
-                        <h2 class="widget-title">Get in Touch</h2>
+                        <h2 class="widget-title">Hubungi Kami</h2>
                         <ul>
-                            <li>34/8, East Hukupara, Gifirtok, Sadan.</li>
-                            <li>support@fruitkha.com</li>
-                            <li>+00 111 222 3333</li>
+                            <li>Jl. BongsoWetan Rt. 23, Rw. 06, Desa Pengalangan Kec. Menganti. Kab. Gresik </li>
+                            <li>(Mas Halim / Bpk. Tosan)</li>
+                            <li>0896 7886 6200</li>
+
                         </ul>
                     </div>
                 </div>
-                <div class="col-lg-3 col-md-6">
+                <div class="col-lg-4 col-md-6">
                     <div class="footer-box pages">
                         <h2 class="widget-title">Pages</h2>
                         <ul>
@@ -138,7 +140,7 @@
                         </ul>
                     </div>
                 </div>
-                <div class="col-lg-3 col-md-6">
+                {{-- <div class="col-lg-3 col-md-6">
                     <div class="footer-box subscribe">
                         <h2 class="widget-title">Subscribe</h2>
                         <p>Subscribe to our mailing list to get the latest updates.</p>
@@ -147,7 +149,7 @@
                             <button type="submit"><i class="fas fa-paper-plane"></i></button>
                         </form>
                     </div>
-                </div>
+                </div> --}}
             </div>
         </div>
     </div>
@@ -158,21 +160,10 @@
         <div class="container">
             <div class="row">
                 <div class="col-lg-6 col-md-12">
-                    <p>Copyrights &copy; 2019 - <a href="{{ url('/') }}">Sapi Gresik</a>, All Rights
+                    <p>Copyrights &copy; 1998 - <a href="{{ url('/') }}">Lembu Pedia Gresik</a>, All Rights
                         Reserved.<br>
                         {{-- Distributed By - <a href="https://themewagon.com/">Themewagon</a> --}}
                     </p>
-                </div>
-                <div class="col-lg-6 text-right col-md-12">
-                    <div class="social-icons">
-                        <ul>
-                            <li><a href="#" target="_blank"><i class="fab fa-facebook-f"></i></a></li>
-                            <li><a href="#" target="_blank"><i class="fab fa-twitter"></i></a></li>
-                            <li><a href="#" target="_blank"><i class="fab fa-instagram"></i></a></li>
-                            <li><a href="#" target="_blank"><i class="fab fa-linkedin"></i></a></li>
-                            <li><a href="#" target="_blank"><i class="fab fa-dribbble"></i></a></li>
-                        </ul>
-                    </div>
                 </div>
             </div>
         </div>

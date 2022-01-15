@@ -47,8 +47,9 @@
                 <div class="col-lg-4">
                     <div class="contact-form-wrap">
                         <div class="contact-form-box">
-                            <h4><i class="fas fa-map"></i> Shop Address</h4>
-                            <p>34/8, East Hukupara <br> Gifirtok, Sadan. <br> Country Name</p>
+                            <h4><i class="fas fa-map"></i>Alamat</h4>
+                            <p>Jl. BongsoWetan Rt. 23, Rw. 06, <br>Desa Pengalangan Kec. Menganti. <br> Kab. Gresik </p>
+
                         </div>
                         <div class="contact-form-box">
                             <h4><i class="far fa-clock"></i> Shop Hours</h4>
