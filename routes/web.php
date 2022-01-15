@@ -39,13 +39,18 @@ Route::group(['middleware' => ['cek-login:0']], function () {
     Route::get('admin/dashboard', function () {
         return view('admin.dashboard');
     });
-    Route::get('admin/produk', function () {
-        return view('admin.produk');
-    });
-    Route::get('admin/kategori', function () {
-        return view('admin.kategori');
-    });
-    Route::get('admin/promosi', function () {
-        return view('admin.promosi');
-    });
+    //produk
+    Route::get('admin/produk', 'App\Http\Controllers\ProdukController@read');
+    Route::post('tambah-produk', 'App\Http\Controllers\ProdukController@create');
+    Route::delete('/delete-produk{id}', 'App\Http\Controllers\ProdukController@delete')->name('delete-produk');
+    Route::put('/update-produk/{Produk}', 'App\Http\Controllers\ProdukController@update')->name('update-produk');
+    //kategori
+    Route::get('admin/kategori', 'App\Http\Controllers\KategoriController@read');
+    Route::post('tambah-kategori', 'App\Http\Controllers\KategoriController@create');
+    Route::delete('/delete-kategori{id}', 'App\Http\Controllers\KategoriController@delete')->name('delete-kategori');
+    
+    Route::get('admin/promosi', 'App\Http\Controllers\PromosiController@read');
+    Route::post('tambah-promosi', 'App\Http\Controllers\PromosiController@create');
+    Route::delete('/delete-promosi{id}', 'App\Http\Controllers\PromosiController@delete')->name('delete-promosi');
+    Route::put('/update-promosi/{Produk}', 'App\Http\Controllers\PromosiController@update')->name('update-promosi');
 });

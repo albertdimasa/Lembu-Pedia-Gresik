@@ -19,6 +19,7 @@ class CreatePromosisTable extends Migration
             $table->string('hargasebelum');
             $table->string('hargasesudah');
             $table->string('kategori');
+            $table->string('diskon');
             $table->string('deskripsi');
             $table->string('foto');
             $table->timestamps();

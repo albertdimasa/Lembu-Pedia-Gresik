@@ -4,6 +4,7 @@ namespace Database\Seeders;
 
 use App\Models\Kategori;
 use App\Models\Produk;
+use App\Models\Promosi;
 use App\Models\User;
 use Illuminate\Database\Seeder;
 use Illuminate\Support\Facades\Hash;
@@ -34,7 +35,18 @@ class DatabaseSeeder extends Seeder
             'harga' => '10000000',
             'kategori' => 'Putihan',
             'deskripsi' => 'Ini sapi',
-            'foto' => './img/sapi.jpg',
+            'foto' => 'sapi.jpg',
+        ]);
+
+        
+        Promosi::create([
+            'nama' => 'Sapi Putihan #1',
+            'hargasebelum' => '10000000',
+            'hargasesudah' => '9000000',
+            'kategori' => 'Putihan',
+            'diskon' => '10',
+            'deskripsi' => 'Ini sapi',
+            'foto' => 'sapi.jpg',
         ]);
     }
 }

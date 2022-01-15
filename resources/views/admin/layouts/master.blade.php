@@ -47,7 +47,7 @@
             <footer class="sticky-footer bg-white">
                 <div class="container my-auto">
                     <div class="copyright text-center my-auto">
-                        <span>Copyright &copy; Sapi-APP 2021</span>
+                        <span>Copyright &copy; Lembu Pedia 2022</span>
                     </div>
                 </div>
             </footer>
@@ -83,7 +83,7 @@
             </div>
         </div>
     </div>
-
+    @stack('before-scripts')
     <!-- Bootstrap core JavaScript-->
     <script src="{{ asset('adminassets/vendor/jquery/jquery.min.js') }}"></script>
     <script src="{{ asset('adminassets/vendor/bootstrap/js/bootstrap.bundle.min.js') }}"></script>
@@ -96,11 +96,12 @@
 
     <!-- Page level plugins -->
     <script src="{{ asset('adminassets/vendor/chart.js/Chart.min.js') }}"></script>
+    @stack('page-scripts')
 
     <!-- Page level custom scripts -->
     <script src="{{ asset('adminassets/js/demo/chart-area-demo.js') }}"></script>
     <script src="{{ asset('adminassets/js/demo/chart-pie-demo.js') }}"></script>
-
+    @stack('after-scripts')
 </body>
 
 </html>

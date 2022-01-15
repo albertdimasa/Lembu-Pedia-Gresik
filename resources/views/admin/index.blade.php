@@ -89,7 +89,7 @@
           </div>
         </div>
       </section>
-      <footer class="text-center text-white mt-3">Copyright &copy; Sapi-APP 2022</footer>
+      <footer class="text-center text-white mt-3">Copyright &copy; Lembu Pedia 2022</footer>
     <!-- Bootstrap core JavaScript-->
     <script src="adminassets/vendor/jquery/jquery.min.js"></script>
     <script src="adminassets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>

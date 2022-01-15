@@ -14,6 +14,7 @@ class Promosi extends Model
         'hargasebelum',
         'hargasesudah',
         'kategori',
+        'diskon',
         'deskripsi',
         'foto'
     ];
