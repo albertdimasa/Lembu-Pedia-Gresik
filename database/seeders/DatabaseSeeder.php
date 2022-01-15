@@ -38,7 +38,7 @@ class DatabaseSeeder extends Seeder
             'foto' => 'sapi.jpg',
         ]);
 
-        
+
         Promosi::create([
             'nama' => 'Sapi Putihan #1',
             'hargasebelum' => '10000000',

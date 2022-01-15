@@ -1,4 +1,3 @@
-
 <!DOCTYPE html>
 <html lang="en">
 
@@ -101,6 +100,9 @@
     <!-- Page level custom scripts -->
     <script src="{{ asset('adminassets/js/demo/chart-area-demo.js') }}"></script>
     <script src="{{ asset('adminassets/js/demo/chart-pie-demo.js') }}"></script>
+
+
+
     @stack('after-scripts')
 </body>
 

@@ -9,7 +9,7 @@
         content="Lembu Pedia Gresik - Halo teman-teman semuanya apa kabar? semoga dalam keadaan sehat selalu. Sedang cari Jual Sapi Qurban Gresik ? selamat anda di website yang tepat.">
 
     <!-- title -->
-    <title>Fruitkha</title>
+    <title>Lembu Pedia Gresik</title>
 
     <!-- favicon -->
     <link rel="shortcut icon" type="image/png" href="{{ asset('/img/favicon.png') }}">
@@ -109,7 +109,7 @@
     <!-- footer -->
     <div class="footer-area">
         <div class="container">
-            <div class="row">
+            <div class="row ">
                 <div class="col-lg-4 col-md-6">
                     <div class="footer-box about-widget">
                         <h2 class="widget-title">Tentang Kami</h2>
@@ -190,6 +190,7 @@
     <script src="{{ asset('/js/sticker.js') }}"></script>
     <!-- main js -->
     <script src="{{ asset('/js/main.js') }}"></script>
+
 
 </body>
 

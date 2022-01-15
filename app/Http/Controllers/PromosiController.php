@@ -10,14 +10,16 @@ use Illuminate\Support\Facades\Redirect;
 
 class PromosiController extends Controller
 {
-    public function read() {
+    public function read()
+    {
         $no = 1;
-        $kategori = Kategori::all();
-        $promosi = Promosi::all();
+        $kategori   = Kategori::all();
+        $promosi    = Promosi::all();
         return view('admin.promosi', compact('promosi', 'kategori', 'no'));
     }
 
-    public function delete($id){
+    public function delete($id)
+    {
         DB::table('promosis')->where('id', $id)->delete();
         return redirect()->back();
     }
@@ -25,8 +27,8 @@ class PromosiController extends Controller
     public function create(Request $request)
     {
 
-        $lampiran     = $request->file('foto');
-        $lampiranName = time() . "_" . $lampiran->getClientOriginalName();
+        $lampiran       = $request->file('foto');
+        $lampiranName   = time() . "_" . $lampiran->getClientOriginalName();
         $lampiranPath   = "foto";
         $lampiran->move($lampiranPath, $lampiranName);
 
@@ -39,13 +41,13 @@ class PromosiController extends Controller
     protected function saveProduk(array $data, $lampiran = null)
     {
         return Promosi::create([
-            'nama'         => $data['nama'],
-            'hargasebelum'     => $data['hargasebelum'],
-            'hargasesudah'     => $data['hargasesudah'],
-            'kategori'     => $data['kategori'],
-            'diskon'     => $data['diskon'],
-            'deskripsi'   => $data['deskripsi'],
-            'foto'      => $lampiran,
+            'nama'              => $data['nama'],
+            'hargasebelum'      => $data['hargasebelum'],
+            'hargasesudah'      => $data['hargasesudah'],
+            'kategori'          => $data['kategori'],
+            'diskon'            => $data['diskon'],
+            'deskripsi'         => $data['deskripsi'],
+            'foto'              => $lampiran,
         ]);
     }
 }
