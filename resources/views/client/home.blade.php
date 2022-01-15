@@ -7,11 +7,11 @@
                 <div class="col-lg-9 offset-lg-2 text-center">
                     <div class="hero-text">
                         <div class="hero-text-tablecell">
-                            <p class="subtitle">Fresh & Organic</p>
-                            <h1>Delicious Seasonal Fruits</h1>
+                            <p class="subtitle">Sehat & Halal</p>
+                            <h1>Jual Beli Sapi Kurban</h1>
                             <div class="hero-btns">
-                                <a href="shop.html" class="boxed-btn">Fruit Collection</a>
-                                <a href="contact.html" class="bordered-btn">Contact Us</a>
+                                <a href="shop.html" class="boxed-btn">Lihat Sapi</a>
+                                <a href="contact.html" class="bordered-btn">Hubungi Kami</a>
                             </div>
                         </div>
                     </div>
@@ -32,8 +32,8 @@
                             <i class="fas fa-shipping-fast"></i>
                         </div>
                         <div class="content">
-                            <h3>Free Shipping</h3>
-                            <p>When order over $75</p>
+                            <h3>Pengiriman Cepat</h3>
+                            <p>Area Gresik Surabaya Lamongan</p>
                         </div>
                     </div>
                 </div>
@@ -43,8 +43,8 @@
                             <i class="fas fa-phone-volume"></i>
                         </div>
                         <div class="content">
-                            <h3>24/7 Support</h3>
-                            <p>Get support all day</p>
+                            <h3>Dukungan Penuh</h3>
+                            <p>Dapat Dihubungi Kapanpun</p>
                         </div>
                     </div>
                 </div>
@@ -54,8 +54,8 @@
                             <i class="fas fa-sync"></i>
                         </div>
                         <div class="content">
-                            <h3>Refund</h3>
-                            <p>Get refund within 3 days!</p>
+                            <h3>Pengembalian</h3>
+                            <p>Bila Ditemukan Sapi Kurang Baik</p>
                         </div>
                     </div>
                 </div>
@@ -68,16 +68,18 @@
     <!-- product section -->
     <div class="product-section mt-150 mb-150">
         <div class="container">
+
             <div class="row">
                 <div class="col-lg-8 offset-lg-2 text-center">
                     <div class="section-title">
-                        <h3><span class="orange-text">Our</span> Products</h3>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquid, fuga quas itaque eveniet
-                            beatae optio.</p>
+                        <h3><span class="orange-text">Produk</span> Kami</h3>
+                        <p>Produk kami dijamin halal dan sehat karena dirawat sepenuh hati serta telah berpengalaman sejak
+                            tahun 2010.</p>
                     </div>
                 </div>
             </div>
 
+            {{-- Produk --}}
             <div class="row">
                 <div class="col-lg-4 col-md-6 text-center">
                     <div class="single-product-item">
@@ -87,7 +89,8 @@
                         </div>
                         <h3>Strawberry</h3>
                         <p class="product-price"><span>Per Kg</span> 85$ </p>
-                        <a href="cart.html" class="cart-btn"><i class="fas fa-shopping-cart"></i> Add to Cart</a>
+                        <a href="cart.html" class="cart-btn"><i class="fas fa-shopping-cart"></i> Masukkan
+                            Keranjang</a>
                     </div>
                 </div>
                 <div class="col-lg-4 col-md-6 text-center">
@@ -98,7 +101,8 @@
                         </div>
                         <h3>Berry</h3>
                         <p class="product-price"><span>Per Kg</span> 70$ </p>
-                        <a href="cart.html" class="cart-btn"><i class="fas fa-shopping-cart"></i> Add to Cart</a>
+                        <a href="cart.html" class="cart-btn"><i class="fas fa-shopping-cart"></i> Masukkan
+                            Keranjang</a>
                     </div>
                 </div>
                 <div class="col-lg-4 col-md-6 offset-md-3 offset-lg-0 text-center">
@@ -109,7 +113,8 @@
                         </div>
                         <h3>Lemon</h3>
                         <p class="product-price"><span>Per Kg</span> 35$ </p>
-                        <a href="cart.html" class="cart-btn"><i class="fas fa-shopping-cart"></i> Add to Cart</a>
+                        <a href="cart.html" class="cart-btn"><i class="fas fa-shopping-cart"></i> Masukkan
+                            Keranjang</a>
                     </div>
                 </div>
             </div>
@@ -158,14 +163,14 @@
                             </div>
                         </div>
                     </div>
-                    <a href="cart.html" class="cart-btn mt-3"><i class="fas fa-shopping-cart"></i> Add to Cart</a>
+                    <a href="cart.html" class="cart-btn mt-3"><i class="fas fa-shopping-cart"></i> Masukkan Keranjang</a>
                 </div>
             </div>
         </div>
     </section>
     <!-- end cart banner section -->
 
-    <!-- testimonail-section -->
+    {{-- <!-- testimonail-section -->
     <div class="testimonail-section mt-150 mb-150">
         <div class="container">
             <div class="row">
@@ -224,10 +229,10 @@
             </div>
         </div>
     </div>
-    <!-- end testimonail-section -->
+    <!-- end testimonail-section --> --}}
 
     <!-- advertisement section -->
-    <div class="abt-section mb-150">
+    <div class="abt-section mb-100 mt-5">
         <div class="container">
             <div class="row">
                 <div class="col-lg-6 col-md-12">
@@ -245,7 +250,7 @@
                             interdum velit. Nam eu molestie lorem.</p>
                         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sapiente facilis illo repellat
                             veritatis minus, et labore minima mollitia qui ducimus.</p>
-                        <a href="about.html" class="boxed-btn mt-4">know more</a>
+                        <a href="about.html" class="boxed-btn mt-4">Lihat Selengkapnya</a>
                     </div>
                 </div>
             </div>
@@ -253,7 +258,7 @@
     </div>
     <!-- end advertisement section -->
 
-    <!-- shop banner -->
+    {{-- <!-- shop banner -->
     <section class="shop-banner">
         <div class="container">
             <h3>December sale is on! <br> with big <span class="orange-text">Discount...</span></h3>
@@ -340,7 +345,7 @@
             </div>
         </div>
     </div>
-    <!-- end latest news -->
+    <!-- end latest news --> --}}
 
     <!-- logo carousel -->
     <div class="logo-carousel-section">
