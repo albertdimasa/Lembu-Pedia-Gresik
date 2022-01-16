@@ -82,39 +82,19 @@
 
             {{-- Produk --}}
             <div class="row">
+                @foreach ($produk as $data)
                 <div class="col-lg-4 col-md-6 text-center">
                     <div class="single-product-item">
                         <div class="product-image">
-                            <a href="single-product.html"><img src="{{ asset('/img/products/product-img-1.jpg') }}"
+                            <a href="#"><img src="{{ asset('/foto/' . $data->foto) }}"
                                     alt=""></a>
                         </div>
-                        <h3>Strawberry</h3>
-                        <p class="product-price"><span>Per Kg</span> 85$ </p>
+                        <h3>{{ $data->nama }}</h3>
+                        <p class="product-price"><span>Per Ekor</span> Rp. {{ $data->harga }} </p>
                         <a href="#" class="cart-btn"><i class="fas fa-shopping-cart"></i>Pesan Sekarang</a>
                     </div>
                 </div>
-                <div class="col-lg-4 col-md-6 text-center">
-                    <div class="single-product-item">
-                        <div class="product-image">
-                            <a href="single-product.html"><img src="{{ asset('/img/products/product-img-2.jpg') }}"
-                                    alt=""></a>
-                        </div>
-                        <h3>Berry</h3>
-                        <p class="product-price"><span>Per Kg</span> 70$ </p>
-                        <a href="#" class="cart-btn"><i class="fas fa-shopping-cart"></i>Pesan Sekarang</a>
-                    </div>
-                </div>
-                <div class="col-lg-4 col-md-6 offset-md-3 offset-lg-0 text-center">
-                    <div class="single-product-item">
-                        <div class="product-image">
-                            <a href="single-product.html"><img src="{{ asset('/img/products/product-img-3.jpg') }}"
-                                    alt=""></a>
-                        </div>
-                        <h3>Lemon</h3>
-                        <p class="product-price"><span>Per Kg</span> 35$ </p>
-                        <a href="#" class="cart-btn"><i class="fas fa-shopping-cart"></i>Pesan Sekarang</a>
-                    </div>
-                </div>
+                @endforeach
             </div>
         </div>
     </div>

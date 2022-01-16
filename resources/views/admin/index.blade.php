@@ -10,7 +10,7 @@
     <meta name="description" content="">
     <meta name="author" content="">
 
-    <title>Sapi App - Login</title>
+    <title>Lembu Pedia - Login</title>
 
     <!-- Custom fonts for this template-->
     <link href="adminassets/vendor/fontawesome-free/css/all.min.css" rel="stylesheet" type="text/css">

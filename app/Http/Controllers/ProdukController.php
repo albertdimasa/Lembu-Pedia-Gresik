@@ -46,4 +46,14 @@ class ProdukController extends Controller
             'foto'      => $lampiran,
         ]);
     }
+
+    public function home() {
+        $produk = Produk::all()->take(3);
+        return view('client.home', compact('produk'));
+    }
+
+    public function shop() {
+        $produk = Produk::all();
+        return view('client.shop', compact('produk'));
+    }
 }

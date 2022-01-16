@@ -3,6 +3,7 @@
 namespace App\Http\Controllers;
 
 use App\Models\Kategori;
+use App\Models\Produk;
 use App\Models\Promosi;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\DB;
@@ -48,4 +49,12 @@ class PromosiController extends Controller
             'foto'      => $lampiran,
         ]);
     }
+
+    public function resultPromosi() {
+        $resultPromosi = Promosi::all()->count();
+        $resultProduk = Produk::all()->count();
+        $resultKategori = Kategori::all()->count();
+        return view('admin.dashboard', compact('resultPromosi', 'resultProduk', 'resultKategori'));
+    }
+
 }

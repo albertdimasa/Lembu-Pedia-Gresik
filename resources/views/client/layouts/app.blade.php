@@ -9,7 +9,7 @@
         content="Lembu Pedia Gresik - Halo teman-teman semuanya apa kabar? semoga dalam keadaan sehat selalu. Sedang cari Jual Sapi Qurban Gresik ? selamat anda di website yang tepat.">
 
     <!-- title -->
-    <title>Fruitkha</title>
+    <title>Lembu Pedia</title>
 
     <!-- favicon -->
     <link rel="shortcut icon" type="image/png" href="{{ asset('/img/favicon.png') }}">

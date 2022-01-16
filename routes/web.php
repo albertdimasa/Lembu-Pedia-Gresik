@@ -21,24 +21,18 @@ Route::post('/admin-login', 'App\Http\Controllers\AuthController@login');
 Route::get('/logout', 'App\Http\Controllers\AuthController@logout');
 
 //Routing Client
-Route::get('/', function () {
-    return view('client.home');
-});
+Route::get('/', 'App\Http\Controllers\ProdukController@home');
 Route::get('/about', function () {
     return view('client.about');
 });
 Route::get('/contact', function () {
     return view('client.contact');
 });
-Route::get('/shop', function () {
-    return view('client.shop');
-});
+Route::get('/shop', 'App\Http\Controllers\ProdukController@shop');
 
 //Routing Admin
 Route::group(['middleware' => ['cek-login:0']], function () {
-    Route::get('admin/dashboard', function () {
-        return view('admin.dashboard');
-    });
+    Route::get('admin/dashboard', 'App\Http\Controllers\PromosiController@resultPromosi');
     //produk
     Route::get('admin/produk', 'App\Http\Controllers\ProdukController@read');
     Route::post('tambah-produk', 'App\Http\Controllers\ProdukController@create');

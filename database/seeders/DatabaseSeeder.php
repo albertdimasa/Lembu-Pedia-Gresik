@@ -38,6 +38,45 @@ class DatabaseSeeder extends Seeder
             'foto' => 'sapi.jpg',
         ]);
 
+        Produk::create([
+            'nama' => 'Sapi Putihan #2',
+            'harga' => '10000000',
+            'kategori' => 'Putihan',
+            'deskripsi' => 'Ini sapi',
+            'foto' => 'sapi.jpg',
+        ]);
+
+        Produk::create([
+            'nama' => 'Sapi Putihan #3',
+            'harga' => '10000000',
+            'kategori' => 'Putihan',
+            'deskripsi' => 'Ini sapi',
+            'foto' => 'sapi.jpg',
+        ]);
+
+        Produk::create([
+            'nama' => 'Sapi Putihan #4',
+            'harga' => '10000000',
+            'kategori' => 'Putihan',
+            'deskripsi' => 'Ini sapi',
+            'foto' => 'sapi.jpg',
+        ]);
+
+        Produk::create([
+            'nama' => 'Sapi Putihan #5',
+            'harga' => '10000000',
+            'kategori' => 'Putihan',
+            'deskripsi' => 'Ini sapi',
+            'foto' => 'sapi.jpg',
+        ]);
+
+        Produk::create([
+            'nama' => 'Sapi Putihan #6',
+            'harga' => '10000000',
+            'kategori' => 'Putihan',
+            'deskripsi' => 'Ini sapi',
+            'foto' => 'sapi.jpg',
+        ]);
         
         Promosi::create([
             'nama' => 'Sapi Putihan #1',
