@@ -22,7 +22,7 @@ class DatabaseSeeder extends Seeder
         User::create([
             'nama' => 'Admin',
             'username' => 'Admin',
-            'password' => Hash::make('Halim123'),
+            'password' => Hash::make('admin123'),
             'role' => 0
         ]);
 
@@ -77,7 +77,7 @@ class DatabaseSeeder extends Seeder
             'deskripsi' => 'Ini sapi',
             'foto' => 'sapi.jpg',
         ]);
-        
+
         Promosi::create([
             'nama' => 'Sapi Putihan1',
             'hargasebelum' => '10000000',
