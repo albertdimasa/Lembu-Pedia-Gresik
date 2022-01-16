@@ -35,7 +35,7 @@
                     <table class="table table-striped table-md">
                         <tbody>
                             <tr>
-                                <th>#</th>
+                                <th>No</th>
                                 <th>Nama</th>
                                 <th>Kategori</th>
                                 <th>Harga</th>
@@ -101,7 +101,7 @@
                                                     <div class="form-group">
                                                         <h5>Foto</h5>
                                                         <div class="text-center">
-                                                            <img src="{{ $data->foto }}" alt=""
+                                                            <img src="/{{ $data->foto }}" alt=""
                                                                 style="width: 100%; height: auto;">
                                                         </div>
                                                     </div>
