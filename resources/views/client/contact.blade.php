@@ -52,12 +52,12 @@
 
                         </div>
                         <div class="contact-form-box">
-                            <h4><i class="far fa-clock"></i> Shop Hours</h4>
-                            <p>MON - FRIDAY: 8 to 9 PM <br> SAT - SUN: 10 to 8 PM </p>
+                            <h4><i class="far fa-clock"></i> Jam Kerja</h4>
+                            <p>SENIN - SABTU: 07.00 - 21.00 WIB </p>
                         </div>
                         <div class="contact-form-box">
-                            <h4><i class="fas fa-address-book"></i> Contact</h4>
-                            <p>Phone: +00 111 222 3333 <br> Email: support@fruitkha.com</p>
+                            <h4><i class="fas fa-address-book"></i> Kontak</h4>
+                            <p>Telefon: 0896 7886 6200<br> Email: abdulhalim@gmail.com</p>
                         </div>
                     </div>
                 </div>
