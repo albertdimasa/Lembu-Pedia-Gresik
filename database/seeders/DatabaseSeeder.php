@@ -35,7 +35,7 @@ class DatabaseSeeder extends Seeder
             'harga' => '10000000',
             'kategori' => 'Putihan',
             'deskripsi' => 'Ini sapi',
-            'foto' => 'sapi.jpg',
+            'foto' => 'foto/sapi.jpg',
         ]);
 
         Produk::create([
@@ -43,7 +43,7 @@ class DatabaseSeeder extends Seeder
             'harga' => '10000000',
             'kategori' => 'Putihan',
             'deskripsi' => 'Ini sapi',
-            'foto' => 'sapi.jpg',
+            'foto' => 'foto/sapi.jpg',
         ]);
 
         Produk::create([
@@ -51,7 +51,7 @@ class DatabaseSeeder extends Seeder
             'harga' => '10000000',
             'kategori' => 'Putihan',
             'deskripsi' => 'Ini sapi',
-            'foto' => 'sapi.jpg',
+            'foto' => 'foto/sapi.jpg',
         ]);
 
         Produk::create([
@@ -59,7 +59,7 @@ class DatabaseSeeder extends Seeder
             'harga' => '10000000',
             'kategori' => 'Putihan',
             'deskripsi' => 'Ini sapi',
-            'foto' => 'sapi.jpg',
+            'foto' => 'foto/sapi.jpg',
         ]);
 
         Produk::create([
@@ -67,7 +67,7 @@ class DatabaseSeeder extends Seeder
             'harga' => '10000000',
             'kategori' => 'Putihan',
             'deskripsi' => 'Ini sapi',
-            'foto' => 'sapi.jpg',
+            'foto' => 'foto/sapi.jpg',
         ]);
 
         Produk::create([
@@ -75,7 +75,7 @@ class DatabaseSeeder extends Seeder
             'harga' => '10000000',
             'kategori' => 'Putihan',
             'deskripsi' => 'Ini sapi',
-            'foto' => 'sapi.jpg',
+            'foto' => 'foto/sapi.jpg',
         ]);
 
         Promosi::create([
@@ -85,7 +85,7 @@ class DatabaseSeeder extends Seeder
             'kategori' => 'Putihan',
             'diskon' => '10',
             'deskripsi' => 'Ini sapi',
-            'foto' => 'sapi.jpg',
+            'foto' => 'foto/sapi.jpg',
         ]);
     }
 }
