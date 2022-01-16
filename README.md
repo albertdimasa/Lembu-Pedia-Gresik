@@ -1,16 +1,15 @@
-
 # Lembu Pedia Gresik
 
 Website e-commerce sederhana dengan integrasi
 menggunakan whatsapp. Memiliki 4 halaman utama
-dan dashboard admin. Dibangun dengan framework 
+dan dashboard admin. Dibangun dengan framework
 laravel dan bootstrap.
+
 ## Daftar Isi
 
- - [Screenshots](#screenshots)
- - [Cara Install](#install)
- - [Feedback](#feedback)
-
+-   [Screenshots](#screenshots)
+-   [Cara Install](#cara-install)
+-   [Feedback](#feedback)
 
 ## Screenshots
 
@@ -20,22 +19,26 @@ laravel dan bootstrap.
 
 ## Cara Install
 
-1. Clone Project 
+1. Clone Project
+
 ```bash
   git clone https://github.com/albertdimasa/sapi-app.git
 ```
 
 2. Install Composer (pastikan sudah install composer)
+
 ```bash
   composer install
   composer update
 ```
 
 3. Buat Database dan sesuaikan namanya dengan di file .env
+
 ```bash
   php artisan migrate
   php artisan db:seed
 ```
+
 ## Feedback
 
 Jika punya pertanyaan silahkan hubungi albertabraham28@gmail.com
