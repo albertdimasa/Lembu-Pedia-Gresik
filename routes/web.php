@@ -22,14 +22,14 @@ Route::post('/admin-login', 'App\Http\Controllers\AuthController@login');
 Route::get('/logout', 'App\Http\Controllers\AuthController@logout');
 
 //Routing Client
-Route::get('/', 'App\Http\Controllers\ProdukController@home');
+Route::get('/', 'App\Http\Controllers\ClientController@home');
 Route::get('/about', function () {
     return view('client.about');
 });
 Route::get('/contact', function () {
     return view('client.contact');
 });
-Route::get('/shop', 'App\Http\Controllers\ProdukController@shop');
+Route::get('/shop', 'App\Http\Controllers\ClientController@shop');
 
 //Routing Admin
 Route::group(['middleware' => ['cek-login:0']], function () {
