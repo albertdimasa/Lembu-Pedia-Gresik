@@ -23,13 +23,13 @@ Route::get('/logout', 'App\Http\Controllers\AuthController@logout');
 
 //Routing Client
 Route::get('/', 'App\Http\Controllers\ClientController@home');
-Route::get('/about', function () {
+Route::get('/tentang', function () {
     return view('client.about');
 });
-Route::get('/contact', function () {
+Route::get('/hubungi', function () {
     return view('client.contact');
 });
-Route::get('/shop', 'App\Http\Controllers\ClientController@shop');
+Route::get('/toko', 'App\Http\Controllers\ClientController@shop');
 
 //Routing Admin
 Route::group(['middleware' => ['cek-login:0']], function () {

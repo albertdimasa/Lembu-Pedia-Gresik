@@ -6,8 +6,8 @@
             <div class="row">
                 <div class="col-lg-8 offset-lg-2 text-center">
                     <div class="breadcrumb-text">
-                        <p>Get 24/7 Support</p>
-                        <h1>Contact us</h1>
+                        <p>Sehat & Berkualitas</p>
+                        <h1>Hubungi Kami</h1>
                     </div>
                 </div>
             </div>
@@ -21,26 +21,25 @@
             <div class="row">
                 <div class="col-lg-8 mb-5 mb-lg-0">
                     <div class="form-title">
-                        <h2>Have you any question?</h2>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Pariatur, ratione! Laboriosam est,
-                            assumenda. Perferendis, quo alias quaerat aliquid. Corporis ipsum minus voluptate? Dolore, esse
-                            natus!</p>
+                        <h2>Punya pertanyaan, kritik, atau saran?</h2>
+                        <p>Apabila memiliki hal - hal yang ingin ditanyakan, kritik, saran, dan mungkin ingin bekerja sama
+                            dengan kami silahkan mengisi form dibawah ini! </p>
                     </div>
                     <div id="form_status"></div>
                     <div class="contact-form">
                         <form type="POST" id="fruitkha-contact" onSubmit="return valid_datas( this );">
                             <p>
-                                <input type="text" placeholder="Name" name="name" id="name">
+                                <input type="text" placeholder="Nama" name="name" id="name">
                                 <input type="email" placeholder="Email" name="email" id="email">
                             </p>
                             <p>
-                                <input type="tel" placeholder="Phone" name="phone" id="phone">
+                                <input type="tel" placeholder="Nomor Hp" name="phone" id="phone">
                                 <input type="text" placeholder="Subject" name="subject" id="subject">
                             </p>
-                            <p><textarea name="message" id="message" cols="30" rows="10" placeholder="Message"></textarea>
+                            <p><textarea name="message" id="message" cols="30" rows="10" placeholder="Pesan"></textarea>
                             </p>
                             <input type="hidden" name="token" value="FsWga4&@f6aw" />
-                            <p><input type="submit" value="Submit"></p>
+                            <p><input type="submit" value="Kirim"></p>
                         </form>
                     </div>
                 </div>
@@ -48,8 +47,7 @@
                     <div class="contact-form-wrap">
                         <div class="contact-form-box">
                             <h4><i class="fas fa-map"></i>Alamat</h4>
-                            <p>Jl. BongsoWetan Rt. 23, Rw. 06, <br>Desa Pengalangan Kec. Menganti. <br> Kab. Gresik </p>
-
+                            <p>Jl. Bongso Wetan Rt. 23, Rw. 06, <br>Desa Pengalangan Kec. Menganti. <br> Kab. Gresik </p>
                         </div>
                         <div class="contact-form-box">
                             <h4><i class="far fa-clock"></i> Jam Kerja</h4>
@@ -71,7 +69,7 @@
         <div class="container">
             <div class="row">
                 <div class="col-lg-12 text-center">
-                    <p> <i class="fas fa-map-marker-alt"></i> Find Our Location</p>
+                    <p> <i class="fas fa-map-marker-alt"></i> Temukan Lokasi Kami</p>
                 </div>
             </div>
         </div>

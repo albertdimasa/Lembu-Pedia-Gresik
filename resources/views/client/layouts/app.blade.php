@@ -57,10 +57,10 @@
                         <!-- menu start -->
                         <nav class="main-menu">
                             <ul>
-                                <li><a href="{{ url('/') }}">Home</a></li>
-                                <li><a href="{{ url('/about') }}">About</a></li>
-                                <li><a href="{{ url('/contact') }}">Contact</a></li>
-                                <li><a href="{{ url('/shop') }}">Shop</a></li>
+                                <li><a href="{{ url('/') }}">Beranda</a></li>
+                                <li><a href="{{ url('/tentang') }}">Tentang</a></li>
+                                <li><a href="{{ url('/hubungi') }}">Hubungi Kami</a></li>
+                                <li><a href="{{ url('/toko') }}">Toko</a></li>
                                 <li>
                                     <div class="header-icons">
                                         <a class="shopping-cart" href="#"><i class="fas fa-shopping-cart"></i></a>
@@ -117,7 +117,7 @@
                     <div class="footer-box get-in-touch">
                         <h2 class="widget-title">Hubungi Kami</h2>
                         <ul>
-                            <li>Jl. BongsoWetan Rt. 23, Rw. 06, Desa Pengalangan Kec. Menganti. Kab. Gresik </li>
+                            <li>Jl. Bongso Wetan Rt. 23, Rw. 06, Desa Pengalangan Kec. Menganti. Kab. Gresik </li>
                             <li>(Mas Halim / Bpk. Tosan)</li>
                             <li>0896 7886 6200</li>
 
@@ -126,25 +126,15 @@
                 </div>
                 <div class="col-lg-4 col-md-6">
                     <div class="footer-box pages">
-                        <h2 class="widget-title">Pages</h2>
+                        <h2 class="widget-title">Halaman</h2>
                         <ul>
-                            <li><a href="{{ url('/') }}">Home</a></li>
-                            <li><a href="{{ url('/about') }}">About</a></li>
-                            <li><a href="{{ url('/contact') }}">Contact</a></li>
-                            <li><a href="{{ url('/shop') }}">Shop</a></li>
+                            <li><a href="{{ url('/') }}">Beranda</a></li>
+                            <li><a href="{{ url('/tentang') }}">Tentang</a></li>
+                            <li><a href="{{ url('/hubungi') }}">Hubungi Kami</a></li>
+                            <li><a href="{{ url('/toko') }}">Toko</a></li>
                         </ul>
                     </div>
                 </div>
-                {{-- <div class="col-lg-3 col-md-6">
-                    <div class="footer-box subscribe">
-                        <h2 class="widget-title">Subscribe</h2>
-                        <p>Subscribe to our mailing list to get the latest updates.</p>
-                        <form action="index.html">
-                            <input type="email" placeholder="Email">
-                            <button type="submit"><i class="fas fa-paper-plane"></i></button>
-                        </form>
-                    </div>
-                </div> --}}
             </div>
         </div>
     </div>

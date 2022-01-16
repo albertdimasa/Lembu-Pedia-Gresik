@@ -7,11 +7,11 @@
                 <div class="col-lg-9 offset-lg-2 text-center">
                     <div class="hero-text">
                         <div class="hero-text-tablecell">
-                            <p class="subtitle">Sehat & Halal</p>
+                            <p class="subtitle">Sehat & Berkualitas</p>
                             <h1>Lembu Pedia Gresik</h1>
                             <div class="hero-btns">
-                                <a href="{{ url('/shop') }}" class="boxed-btn">Lihat Sapi</a>
-                                <a href="{{ url('/contact') }}" class="bordered-btn">Hubungi Kami</a>
+                                <a href="{{ url('/toko') }}" class="boxed-btn">Lihat Sapi</a>
+                                <a href="{{ url('/hubungi') }}" class="bordered-btn">Hubungi Kami</a>
                             </div>
                         </div>
                     </div>
@@ -156,7 +156,7 @@
                     <div class="row">
                         <div class="col-lg-6 col-md-12">
                             <div class="abt-bg">
-                                <a href="https://www.youtube.com/watch?v=DBLlFWYcIGQ"
+                                <a href="https://www.youtube.com/watch?v=OT1Ch5RghZU"
                                     class="video-play-btn popup-youtube"><i class="fas fa-play"></i></a>
                             </div>
                         </div>
