@@ -31,7 +31,7 @@ class DatabaseSeeder extends Seeder
         ]);
 
         Produk::create([
-            'nama' => 'Sapi Putihan #1',
+            'nama' => 'Sapi Putihan1',
             'harga' => '10000000',
             'kategori' => 'Putihan',
             'deskripsi' => 'Ini sapi',
@@ -39,7 +39,7 @@ class DatabaseSeeder extends Seeder
         ]);
 
         Produk::create([
-            'nama' => 'Sapi Putihan #2',
+            'nama' => 'Sapi Putihan2',
             'harga' => '10000000',
             'kategori' => 'Putihan',
             'deskripsi' => 'Ini sapi',
@@ -47,7 +47,7 @@ class DatabaseSeeder extends Seeder
         ]);
 
         Produk::create([
-            'nama' => 'Sapi Putihan #3',
+            'nama' => 'Sapi Putihan3',
             'harga' => '10000000',
             'kategori' => 'Putihan',
             'deskripsi' => 'Ini sapi',
@@ -55,7 +55,7 @@ class DatabaseSeeder extends Seeder
         ]);
 
         Produk::create([
-            'nama' => 'Sapi Putihan #4',
+            'nama' => 'Sapi Putihan4',
             'harga' => '10000000',
             'kategori' => 'Putihan',
             'deskripsi' => 'Ini sapi',
@@ -63,7 +63,7 @@ class DatabaseSeeder extends Seeder
         ]);
 
         Produk::create([
-            'nama' => 'Sapi Putihan #5',
+            'nama' => 'Sapi Putihan5',
             'harga' => '10000000',
             'kategori' => 'Putihan',
             'deskripsi' => 'Ini sapi',
@@ -71,7 +71,7 @@ class DatabaseSeeder extends Seeder
         ]);
 
         Produk::create([
-            'nama' => 'Sapi Putihan #6',
+            'nama' => 'Sapi Putihan6',
             'harga' => '10000000',
             'kategori' => 'Putihan',
             'deskripsi' => 'Ini sapi',
@@ -79,7 +79,7 @@ class DatabaseSeeder extends Seeder
         ]);
         
         Promosi::create([
-            'nama' => 'Sapi Putihan #1',
+            'nama' => 'Sapi Putihan1',
             'hargasebelum' => '10000000',
             'hargasesudah' => '9000000',
             'kategori' => 'Putihan',
