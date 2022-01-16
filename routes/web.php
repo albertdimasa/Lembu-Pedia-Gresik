@@ -1,5 +1,6 @@
 <?php
 
+use App\Http\Controllers\ClientController;
 use Illuminate\Support\Facades\Route;
 
 /*
@@ -38,11 +39,13 @@ Route::group(['middleware' => ['cek-login:0']], function () {
     Route::post('tambah-produk', 'App\Http\Controllers\ProdukController@create');
     Route::delete('/delete-produk{id}', 'App\Http\Controllers\ProdukController@delete')->name('delete-produk');
     Route::put('/update-produk/{Produk}', 'App\Http\Controllers\ProdukController@update')->name('update-produk');
+
     //kategori
     Route::get('admin/kategori', 'App\Http\Controllers\KategoriController@read');
     Route::post('tambah-kategori', 'App\Http\Controllers\KategoriController@create');
     Route::delete('/delete-kategori{id}', 'App\Http\Controllers\KategoriController@delete')->name('delete-kategori');
-    
+
+    //promosi
     Route::get('admin/promosi', 'App\Http\Controllers\PromosiController@read');
     Route::post('tambah-promosi', 'App\Http\Controllers\PromosiController@create');
     Route::delete('/delete-promosi{id}', 'App\Http\Controllers\PromosiController@delete')->name('delete-promosi');

@@ -10,14 +10,16 @@ use Illuminate\Support\Facades\Redirect;
 
 class ProdukController extends Controller
 {
-    public function read() {
+    public function read()
+    {
         $no = 1;
-        $kategori = Kategori::all();
-        $produk = Produk::all();
+        $kategori   = Kategori::all();
+        $produk     = Produk::all();
         return view('admin.produk', compact('produk', 'kategori', 'no'));
     }
 
-    public function delete($id){
+    public function delete($id)
+    {
         DB::table('produks')->where('id', $id)->delete();
         return redirect()->back();
     }
@@ -25,8 +27,8 @@ class ProdukController extends Controller
     public function create(Request $request)
     {
 
-        $lampiran     = $request->file('foto');
-        $lampiranName = time() . "_" . $lampiran->getClientOriginalName();
+        $lampiran       = $request->file('foto');
+        $lampiranName   = time() . "_" . $lampiran->getClientOriginalName();
         $lampiranPath   = "foto";
         $lampiran->move($lampiranPath, $lampiranName);
 
@@ -39,11 +41,11 @@ class ProdukController extends Controller
     protected function saveProduk(array $data, $lampiran = null)
     {
         return Produk::create([
-            'nama'         => $data['nama'],
-            'harga'     => $data['harga'],
-            'kategori'     => $data['kategori'],
-            'deskripsi'   => $data['deskripsi'],
-            'foto'      => $lampiran,
+            'nama'          => $data['nama'],
+            'harga'         => $data['harga'],
+            'kategori'      => $data['kategori'],
+            'deskripsi'     => $data['deskripsi'],
+            'foto'          => 'foto/' . $lampiran,
         ]);
     }
 

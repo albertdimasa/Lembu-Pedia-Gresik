@@ -9,19 +9,22 @@ use Illuminate\Support\Facades\Redirect;
 
 class KategoriController extends Controller
 {
-    public function read() {
+    public function read()
+    {
         $no = 1;
         $kategori = Kategori::all();
         return view('admin.kategori', compact('kategori', 'no'));
     }
 
-    public function delete($id){
+    public function delete($id)
+    {
         DB::table('kategoris')->where('id', $id)->delete();
         return redirect()->back();
     }
 
-    public function create(Request $request){
-        $kategori = new Kategori();
+    public function create(Request $request)
+    {
+        $kategori       = new Kategori();
         $kategori->nama = ucwords(strtolower($request->nama));
         $kategori->save();
 
