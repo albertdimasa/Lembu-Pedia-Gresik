@@ -68,7 +68,7 @@
                                                 <textarea class="form-control" name="catatan"
                                                     id="exampleFormControlTextarea1" rows="3"></textarea>
                                             </div>
-                                            <input type="hidden" name="noWA" value="6285745974148">
+
                                             <input type="hidden" name="produk" value="{{ $d->nama }}">
                                             <input type="hidden" name="harga" value="{{ $d->harga }}">
                                             <button type="submit" name="submit" class="btn btn-primary btn-lg">Pesan
