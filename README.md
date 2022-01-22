@@ -1,14 +1,12 @@
 
 # Lembu Pedia Gresik
 
-Website e-commerce sederhana dengan integrasi
-menggunakan whatsapp. Memiliki 4 halaman utama
-dan dashboard admin. Dibangun dengan framework 
-laravel dan bootstrap.
+Website e-commerce sederhana dengan integrasi menggunakan whatsapp. Memiliki 4 halaman utama dan dashboard admin. Dibangun dengan framework laravel dan bootstrap. Template admin menggunakan SB Admin 2 Bootstrap.
+
 ## Daftar Isi
 
  - [Screenshots](#screenshots)
- - [Cara Install](#install)
+ - [Cara Install](#cara-install)
  - [Login Admin](#login-admin)
  - [Feedback](#feedback)
 
